@@ -8,7 +8,10 @@
     flex-direction: column;
     align-items: center;
 }
-
+.sidebarImg{
+    scale: 0.5;
+    width: 50%;
+}
 .sidebarItem{
     display: flex;
     flex-direction: column;

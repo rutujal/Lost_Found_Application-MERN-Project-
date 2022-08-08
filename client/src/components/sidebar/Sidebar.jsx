@@ -18,32 +18,22 @@ export default function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarItem">
-                 <span className="sidebarTitle">ABOUT ME</span>
-                 <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
+                 <span className="sidebarTitle">ABOUT US</span>
+                 <img className='sidebarImg'
+          src="https://media-exp1.licdn.com/dms/image/C4E1BAQEiqqlFUUh5Pw/company-background_10000/0/1627024963590?e=2147483647&v=beta&t=wG9t59-WAAdu6kdAS1vcWaPquBtbmAbM80sVcFRvTCE"
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-          necessitatibus nostrum illum reprehenderit.
+        Pune Institute of Computer Technology (PICT), an elite academic Institute located in Pune (India), which is rightly known as “The Oxford of the East”, playing an inspiring role in the education sector since its establishment in 1983.
         </p>
             </div>
-            <div className="sidebarItem">
-                <span className="sidebarTitle">CATEGORIES</span>
-                <ul className="sidebarList">
-                {cats.map(c=>(
-                    <Link to={`/?cat=${c.name}`} className="link">
-                     <li className="sidebarListItem">{c.name}</li>
-                    </Link>
-                ))}
-                </ul>
-            </div>
+            
             <div className="sidebarItem">
                 <span className="sidebarTitle">FOLLOW US</span>
                 <div className="sidebarSocial">
                 <i class=" topIcon fab fa-facebook-square"></i>
-                <i className="topIcon fab fa-twitter-square"></i>
-                <i className="topIcon fab fa-pinterest-square"></i>
+                <i className="topIcon fab fa-linkedin"></i>
+        
                 <i className="topIcon fab fa-instagram-square"></i>
                 </div>
             </div>

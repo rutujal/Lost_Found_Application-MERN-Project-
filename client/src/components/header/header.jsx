@@ -5,11 +5,11 @@ export default function Header() {
     return (
         <div className="header">
             <div className="headerTitles">
-                <span className="headerTitlesSm">React & Node</span>
-                <span className="headerTitlesLg">BLOG</span>
+                <span className="headerTitlesSm">PUNE INSTITUTE OF COMPUTER TECHNOLOGY</span>
+                <span className="headerTitlesLg">LOST & FOUND</span>
             </div>
             <img className="headerImg"
-        src="https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        src="https://img.freepik.com/free-vector/hand-drawn-people-asking-questions_52683-60048.jpg?t=st=1651121979~exp=1651122579~hmac=50dbf9d017ef4008cf3969bcf822859e54aed89b58690ee2a15a36f5cff9f901&w=900"
         alt=""
       />
             

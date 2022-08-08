@@ -42,9 +42,11 @@ app.use("/api/auth",authRoute);
 app.use("/api/users",usersRoute);
 app.use("/api/posts",postRoute);
 app.use("/api/categories",categoryRoute);
-
-
-app.listen("5000",()=>{
-    console.log("Backend is running");
+app.get('/', (req, res) => {
+    res.send('Server is ready');
+});
+const port = process.env.PORT || 5001;
+app.listen(port,()=>{
+    console.log(`Backend is running ${port}`);
 })
 
